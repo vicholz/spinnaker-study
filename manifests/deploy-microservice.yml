@@ -8,7 +8,7 @@ metadata:
     name: scientific-sport-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: scientific-sport-microservice
@@ -61,3 +61,5 @@ spec:
                         backend:
                             serviceName: scientific-sport-microservice-service
                             servicePort: 30201
+
+
