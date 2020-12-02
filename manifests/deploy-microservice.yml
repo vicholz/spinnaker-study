@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /scientific-sport(/|$)(.*)
                         backend:
                             serviceName: scientific-sport-microservice-service
                             servicePort: 30201
