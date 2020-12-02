@@ -61,4 +61,3 @@ spec:
                         backend:
                             serviceName: scientific-sport-microservice-service
                             servicePort: 30201
-
