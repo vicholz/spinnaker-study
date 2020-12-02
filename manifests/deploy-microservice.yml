@@ -8,7 +8,7 @@ metadata:
     name: scientific-sport-microservice
     namespace: microservices
 spec:
-    replicas: 4
+    replicas: 3
     selector:
         matchLabels:
             run: scientific-sport-microservice
